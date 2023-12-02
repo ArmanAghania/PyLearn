@@ -8,15 +8,15 @@ rows, cols = img_gray.shape
 
 thresh = 100
 
-# for r in range(rows):
-#     for c in range(cols):
-#         if img_gray[r, c] > thresh:
-#             img_gray[r, c] = 255
-#         else:
-#             img_gray[r, c] = 0
+for r in range(rows):
+    for c in range(cols):
+        if img_gray[r, c] > thresh:
+            img_gray[r, c] = 255
+        else:
+            img_gray[r, c] = 0
 
-# img_gray[img_gray > thresh] = 255
-# img_gray[img_gray <= thresh] = 0
+img_gray[img_gray > thresh] = 255
+img_gray[img_gray <= thresh] = 0
 
 cv2.threshold(img_gray, thresh, 255, cv2.THRESH_BINARY, img_gray)
 cv2.imshow('luffy.jpg', img_gray)
