@@ -10,8 +10,8 @@ All the processing and image creations are done with opencv-python.
 
 ## 2. Make a TV noise, save as a gif file and send it to the group.
 
-* The Video and gif files are in the repository. (Could not add here due to large size)
+![me](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%202/Assignment/tv_noise/tv_noise.gif)
   
 ## 3. Make a landscape with snowfall, save as a gif file and send it to the group.
 
-* The Video and gif files are in the repository. (Could not add here due to large size)
+![me](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%202/Assignment/snowfall/snowfall.gif)
