@@ -6,6 +6,7 @@ All the processing and image creations are done with opencv-python.
 
 ## 1. Make a BATMAN Logo.
 
+Image Processing/Session 2/Assignment/bat_signal/bat_logo.jpg
 
 ## 2. Make a TV noise, save as a gif file and send it to the group.
 
