@@ -12,14 +12,12 @@ face_detector = cv2.CascadeClassifier(
 )
 
 faces = face_detector.detectMultiScale(image_gray, scaleFactor=1.3)
-print(faces)
+cat_count = len(faces)
 
 for face in faces:
     x, y, w, h = face
-    # cv2.rectangle(image_gray, [x, y], [x + w, y + h], 0, 2)
+    cv2.rectangle(image_gray, [x, y], [x + w, y + h], 0, 2)
 
-    sticker = cv2.resize(sticker_gray, [w, h])
-    image_gray[y : y + h, x : x + w] = sticker
 
 cv2.imwrite(f"{random.randint(1, 10)}.jpg", image_gray)
 cv2.imshow("result", image_gray)

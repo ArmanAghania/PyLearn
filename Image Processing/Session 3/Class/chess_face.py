@@ -1,5 +1,4 @@
 import cv2
-import random
 
 image = cv2.imread("860_main_beauty.png")
 
@@ -16,11 +15,15 @@ print(faces)
 
 for face in faces:
     x, y, w, h = face
-    # cv2.rectangle(image_gray, [x, y], [x + w, y + h], 0, 2)
+    face_image = image_gray[y : y + h, x : x + w]
+    face_image_small = cv2.resize(face_image, [20, 20])
 
-    sticker = cv2.resize(sticker_gray, [w, h])
-    image_gray[y : y + h, x : x + w] = sticker
+    face_image_big = cv2.resize(
+        face_image_small, [w, h], interpolation=cv2.INTER_NEAREST
+    )
 
-cv2.imwrite(f"{random.randint(1, 10)}.jpg", image_gray)
+    image_gray[y : y + h, x : x + w] = face_image_big
+
+cv2.imwrite("chess_face.jpg", image_gray)
 cv2.imshow("result", image_gray)
 cv2.waitKey()
