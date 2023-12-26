@@ -1,17 +1,17 @@
 import cv2
 import random
 
-image = cv2.imread("860_main_beauty.png")
-
+image = cv2.imread("cats.jpeg")
+# image = cv2.resize(image, (0, 0), fx=0.3, fy=0.3)
 image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-sticker = cv2.imread("102592-funny-emoji-boy-hd-image-free.png")
-sticker_gray = cv2.cvtColor(sticker, cv2.COLOR_BGR2GRAY)
+# sticker = cv2.imread("Problem-Too-Many-Cats-2048x1152.png")
+# sticker_gray = cv2.cvtColor(sticker, cv2.COLOR_BGR2GRAY)
 face_detector = cv2.CascadeClassifier(
-    cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
+    cv2.data.haarcascades + "haarcascade_frontalcatface.xml"
 )
 
-faces = face_detector.detectMultiScale(image_gray, scaleFactor=1.3)
+faces = face_detector.detectMultiScale(image_gray, scaleFactor=1.1)
 cat_count = len(faces)
 
 for face in faces:
