@@ -14,14 +14,14 @@ All the processing and image creations are done with opencv-python.
 ![cat_detection](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%203/Assignment/cat_detection/2.jpg)
 
 ## 3. Wtire a program to open webcam and apply some filters on your face:
-      * Press 1️⃣ on keyboard: A non-square sticker on your face
-      ![non_squared_sticker](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%203/Assignment/face_filters/saved_frame39.jpg)
+* Press 1️⃣ on keyboard: A non-square sticker on your face
+![non_squared_sticker](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%203/Assignment/face_filters/saved_frame39.jpg)
 
-      * Press 2️⃣ on keyboard Stickers on your eyes and lips  🥸
-      ![lips_and_glasses](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%203/Assignment/face_filters/saved_frame83.jpg)
+* Press 2️⃣ on keyboard Stickers on your eyes and lips  🥸
+![lips_and_glasses](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%203/Assignment/face_filters/saved_frame83.jpg)
 
-      * Press 3️⃣ on keyboard: Chess-board face
-      ![chess_board_face](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%203/Assignment/face_filters/saved_frame20.jpg)
+* Press 3️⃣ on keyboard: Chess-board face
+![chess_board_face](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%203/Assignment/face_filters/saved_frame20.jpg)
 
-      * Press 4️⃣ on keyboard: Mirror filter
-      ![chess_board_face](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%203/Assignment/face_filters/saved_frame72.jpg)
+* Press 4️⃣ on keyboard: Mirror filter
+![chess_board_face](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%203/Assignment/face_filters/saved_frame72.jpg)
