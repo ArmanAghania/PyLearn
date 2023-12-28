@@ -54,6 +54,5 @@ if all(key in averaged_images for key in range(4)):
     cv2.imwrite('whole_picture.jpg', whole_picture)
     cv2.imshow('Whole Picture', whole_picture)
     cv2.waitKey(0)
-    cv2.destroyAllWindows()
 else:
     print("Not all corner images are available to form the whole picture.")
