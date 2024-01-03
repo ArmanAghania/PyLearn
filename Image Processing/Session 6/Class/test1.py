@@ -15,8 +15,8 @@ for i in range(1, rows-1):
         small = denoised_image[i-1:i+2, j-1:j+2]
         average = np.mean(small)
         result[i,j] = average
-        s = (denoised_image[i-1, j-1] + denoised_image[i-1, j] + denoised_image[i-1, j+1] + denoised_image[i, j-1] + denoised_image[i, j] + denoised_image[i, j+1] + denoised_image[i+1, j-1] + denoised_image[i+1, j] + denoised_image[i+1, j+1])/9
-        denoised_image[i, j] = s
+        # s = (denoised_image[i-1, j-1] + denoised_image[i-1, j] + denoised_image[i-1, j+1] + denoised_image[i, j-1] + denoised_image[i, j] + denoised_image[i, j+1] + denoised_image[i+1, j-1] + denoised_image[i+1, j] + denoised_image[i+1, j+1])/9
+        # denoised_image[i, j] = s
         
 combined_image = np.hstack((image, result))
 cv2.imshow('Image', combined_image)
