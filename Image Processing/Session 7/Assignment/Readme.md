@@ -39,10 +39,6 @@ All the processing and image creations are done with opencv-python.
 ## 2. The Magic 🪄🔮
 Use the average filter to reveal hidden things.
 
-### Input
-
-![!dice](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%207/Assignment/magic/1.tif)
-
 ### Output
 
 ![!revealed_dice](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%207/Assignment/magic/result.jpg)
@@ -98,6 +94,10 @@ We will learn the concepts of histogram equalization and use it to improve the c
 
 ## 5. Adaptive Histogram Equalization
 
+### Input
+
+![scene](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%207/Assignment/hist_equalization/tsukuba_l.png)
+
 ### Output
 
 * With Normal Histogram Equalization
@@ -107,5 +107,15 @@ We will learn the concepts of histogram equalization and use it to improve the c
 * With Clahe Histogram Equalization
 
 ![scene](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%207/Assignment/hist_equalization/clahe_Equalized_3.png)
+
+
+![image_noise_reduction](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%206/Assignment/noise_reduction/image_3x3.jpg)
+![image_noise_reduction](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%206/Assignment/noise_reduction/image_5x5.jpg)
+![image_noise_reduction](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%206/Assignment/noise_reduction/image_15x15.jpg)
+
+
+![board_noise_reduction](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%206/Assignment/noise_reduction/board_3x3.jpg)
+![board_noise_reduction](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%206/Assignment/noise_reduction/board_5x5.jpg)
+![board_noise_reduction](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%206/Assignment/noise_reduction/board_15x15.jpg)
 
 
