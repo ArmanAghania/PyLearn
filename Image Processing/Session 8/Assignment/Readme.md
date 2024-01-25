@@ -9,8 +9,16 @@ All the processing and image creations are done with opencv-python.
 * Apply five 2D filters with different kernels on your custom image. 
 
     Write a function to reconstruct image from a given histogram!
-    
-![]()
+
+### Input:
+![!Luffy](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%208/Assignment/histogram2image/The-One-Piece-Movies-In-Order-1-1140x641.jpg)
+
+### Output:
+
+![!bin_size_20](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%208/Assignment/histogram2image/recon_bin20.png)
+
+![!bin_size_10](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%208/Assignment/histogram2image/recon_bin10.png)
+
 
 
 ## 2. Dice Recognition
@@ -18,10 +26,13 @@ Write a notebook for count the number of dots - that's the number on the dice.
 
 Hint: use the hierarchy to find children and parent contours.
 
-![]()
-![]()
-![]()
-![]()
+![!Dice](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%208/Assignment/dice_recognition/13.png)
+
+![!Dice](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%208/Assignment/dice_recognition/55.png)
+
+![!Dice](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%208/Assignment/dice_recognition/3.png)
+
+![!Dice](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%208/Assignment/dice_recognition/2.png)
 
 
 ## 3. Implement cv2.boundingRect() function from scratch.
