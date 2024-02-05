@@ -37,5 +37,6 @@ def convert_to_materwelon(image_path):
 
 image_path = 'watermelon.jpg'
 image = convert_to_materwelon(image_path)
+
 cv2.imshow('Watermelon Color Swapped', image)
 cv2.waitKey(0)
