@@ -32,5 +32,6 @@ background = cv2.bitwise_and(background_image, background_image, mask=mask)
 combined_image = cv2.add(foreground, background)
 
 # Display the result
+cv2.imwrite('blue_screen.jpg', combined_image)
 cv2.imshow('Result', combined_image)
 cv2.waitKey(0)
