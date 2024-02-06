@@ -10,7 +10,7 @@ All the processing and image creations are done with opencv-python.
 Transparent your Microsoft logo and remove it's background.
 Save result with .png format.
 
-![!Materwelon]()
+![!Materwelon](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%2011/Assignment/materwelon/materwelon.png)
 
 ## 2. Color Recognition with webcam (Assignment 35 - 2) using HSV color space. 🧡💛💚🩵💙💜🤍
 
@@ -45,7 +45,7 @@ Change the background of the image below. Fly Superman in the sky.
 
 ### Output
 
-![!Superman]()
+![!Superman](https://github.com/ArmanAghania/PyLearn/blob/main/Image%20Processing/Session%2011/Assignment/blue_screen/blue_screen.jpg)
 
 ## 6. Change your clothes color in a portrait photo of yourself. 👚👕
 
