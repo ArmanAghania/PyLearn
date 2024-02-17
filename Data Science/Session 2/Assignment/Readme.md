@@ -11,7 +11,7 @@ To be able to run the notebooks you need to install dependencies using the follo
 
 ## 1. Get Python for Data Science Certificate and send it to the group.
 
-![!certificate]()
+![!certificate](https://github.com/ArmanAghania/PyLearn/blob/main/Data%20Science/Session%202/Assignment/sololearn_certificate/photo_2024-02-17_16-24-31.jpg)
 
 
 ## Which of the following statements is correct?
